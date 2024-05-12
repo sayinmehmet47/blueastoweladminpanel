@@ -180,7 +180,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
             render={({ field }) => (
               <FormItem>
                 <FormLabel>Images</FormLabel>
-                <div className="w-96 overflow-auto flex">
+                <div className="w-96 overflow-auto flex md:w-full">
                   <FormControl>
                     <FileUpload
                       onChange={field.onChange}
